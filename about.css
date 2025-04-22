@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    height: 109vh;
+    background: 
+        linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 100%),
+        url("images/Background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.icon {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 10px; /* optional: adds some space from the edges */
+}
+
+.icon img {
+    width: 60px; /* adjust size as needed */
+    height: auto;
+    display: block;
+    border-radius: 100%;
+
+}
+
+.menu{
+    flex-grow: 1;
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: Arial;
+    width: 165px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    margin-top: 1px;
+    margin-left: 100px;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 60px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    font-size: 15px;
+    margin-top: 1px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+
+.btn:hover{
+    color: #ff7200;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    color: #ffffff;
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffffff;
+    position: relative;
+    top: 30px;
+}
+
+.content .par{
+    padding-left: 0px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: 1px;
+    letter-spacing: 1px;
+}
+
+.content p{
+    text-align: center;
+}
+
+.form{
+    width: 250px;
+    height: 230px;
+    background: linear-gradient(to top, rgba(97, 93, 93, 0.5) 50%, rgba(78, 74, 74, 0.5) 100%);
+    position: absolute;
+    top: 330px;
+    left: 130px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-bottom: 60px;
+}
+
+.form h2{
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form p{
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+.form1{
+    width: 250px;
+    height: 230px;
+    background: linear-gradient(to top, rgba(97, 93, 93, 0.5) 50%, rgba(78, 74, 74, 0.5) 100%);
+    position: absolute;
+    top: 330px;
+    left: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-bottom: 60px;
+}
+
+.form1 h2{
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form1 p{
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+.form2{
+    width: 250px;
+    height: 230px;
+    background: linear-gradient(to top, rgba(97, 93, 93, 0.5) 50%, rgba(78, 74, 74, 0.5) 100%);
+    position: absolute;
+    top: 330px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-bottom: 60px;
+}
+
+.form2 h2{
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    width: 220px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form2 p{
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial;
+    line-height: 1.5;
+}
