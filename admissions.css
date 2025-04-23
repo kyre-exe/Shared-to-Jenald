@@ -146,16 +146,3 @@ ul li a:hover{
     position: relative;
     top: 150px;
 }
-
-.btn{
-    width: 60px;
-    height: 30px;
-    background: #fff;
-    border: 1px solid #fff;
-    color: #000;
-    font-size: 15px;
-    margin-top: 1px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    transition: 0.4s ease-in-out;
-}
